@@ -38,20 +38,14 @@ ___
 
 **Add an image from your directory:**
 
-You can also add images from a file directory. If you're using GitHub Pages, that means you would want a folder where your content or images live in your GitHub repository.
+You can also add images from a file directory. If you're using GitHub Pages, that means you would want a folder where your content or images live in your GitHub repository. But note that internal links from a "post" can be a little tricky. See the [documentation](https://jekyllrb.com/docs/liquid/tags/#links).  
 
-Internal links from a "post" can be a little tricky, you'll want to use the `link` tag like this:
-
-{% raw %}
 ```
-![Good Boy]({% link content/img/mtn-dog.jpg %})
+![Good Boy](content/img/mtn-dog.jpg)
 ```
-{% endraw %}
 
-![Very Good Boy]({% link content/img/mtn-dog.jpg %})
+![Good Boy](content/img/mtn-dog.jpg)
 
-*Note!* If you want to use an internal link from a "page", it is a little easier:  
-`![Good Boy](../content/img/mtn-dog.jpg)`
 
 Sweet!
 
@@ -102,13 +96,13 @@ ____
 
 You can also add html directly to Markdown. Say you wanted to change the size of an image, for example.
 
-{% raw %}
-```
-<img src='{% link content/img/mtn-dog.jpg %}' width='250' alt='Good Boy'>
-```
-{% endraw %}
 
-<img src='{% link content/img/mtn-dog.jpg %}' width='250' alt='Good Boy'>
+```
+<img src='content/img/mtn-dog.jpg' width='250' alt='Good Boy'>
+```
+
+
+<img src='content/img/mtn-dog.jpg' width='250' alt='Good Boy'>
 
 
 ![Snakes](https://i.giphy.com/media/5xtDartXnQbcW5CfM64/giphy.webp)
