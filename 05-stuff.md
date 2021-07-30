@@ -20,7 +20,7 @@ Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.
 
 Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat. Esse cillum dolore eu fugiat nulla pariatur. Qui officia deserunt mollit anim id est laborum.
 
-![Very Good Boy](../content/img/cute-dog.jpg)
+![Very Good Boy](content/img/cute-dog.jpg)
 
 
 ### and it's all everybody else's fault!
